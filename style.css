@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body{
+
+
+    & .container{
+        display: flex;
+        justify-content: center;
+
+        & ul{
+            display: flex;
+            justify-content: space-evenly;
+
+            & li{
+
+                border: 1px solid rgb(166, 113, 197);
+                padding: 10px;
+
+                color: blue;
+
+                &:hover{
+                    background-color: rgb(231, 75, 75);
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
+.links{ background-color: rgb(211, 126, 193);}
